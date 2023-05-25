@@ -1,0 +1,669 @@
+*{
+padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+    /* border: 1px solid #000; */
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+background-position: center;
+background-size: cover;
+padding: 1px;
+box-sizing: border-box;
+}
+.b{background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8a74d206-66dc-4386-8c7a-88ff32174e7d/bvlatuR/std/4096x2560/Model-S-Main-Hero-Desktop-LHD);}
+
+
+
+
+.navbar{
+box-sizing: border-box;
+padding: 1% 3%;
+height: 100px;
+width: 100%;
+}
+.ul{
+font-weight: 500;
+float: right;
+margin-top: 8px;
+position: relative;
+}
+.li{
+color: #171a20;
+font-size: 16px;
+list-style: none;
+display: inline;
+padding: 0px 15px;
+}
+.li::before{
+content: "";
+position: absolute;
+height: 25px;
+width: 70px;
+background-color: #3b3e422a;
+margin-top: -4px;
+border-radius: 5px;
+opacity: 0;
+margin-left: -5px;
+transition: .5s;
+}
+.li:hover:before{
+opacity: 1;
+}
+.solarli{
+margin-left: 100px;
+}
+
+
+
+.contentbox1{
+    /* border: 1px solid #000; */
+    height: 500px;
+    width: 75%;
+margin: auto;
+
+}
+.heroh{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.herop{
+    font-size: 20px;
+    font-weight: 400;
+    color: #171a20;
+    text-align: center;
+
+}
+.contentbox2{
+    margin-top: 31%;
+    height: 100px;
+    margin-left: 2%;
+    width: 98%;
+    /* border: 1px solid #000; */
+}
+.boxs1{
+    float: left;
+text-align: center;
+    height: 100%;
+    width: 16.6%;
+}
+.box1h{
+    font-size: 30px;
+font-weight: 700;
+color: white;
+margin-top: 10%;
+}
+.box1p{
+    color: white;
+font-size: 14px;
+line-height: 25px;
+
+}
+.buttonbox{
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 240px;
+    border: 3px solid white;
+    border-radius: 5px;
+font-weight: 500; 
+margin: 2% 3%;
+background-color: transparent;
+transition: .2s;
+}
+
+.buttonbox:hover{
+    background-color: white;
+    color: black;
+}
+/* <!---------------------------------------Future sec------------------------------------ --> */
+.future{
+    height: 20vh;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+box-shadow: 0px 40px 50px 70px;
+overflow: hidden;
+ 
+}
+.futureh{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5%;
+}
+
+
+/* <!---------------------------------------img sec------------------------------------ --> */
+.imgsec{
+    margin-top: 13%;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/c0c475f7-2856-46e1-87ab-dd67ec8dd43f/bvlatuR/std/2880x1800/MS-Interior-Hero-Desktop);
+background-position: center;
+background-size: cover;
+
+}
+/* <!-- ------------------------video sec----------------------------------- --> */
+.videosec{
+    height: 180vh;
+    width: 100%;
+background-color: black;
+padding: 1px;
+box-sizing: border-box;
+
+}
+.video{
+margin-top: 10%;
+    height: 90vh;
+    width: 96%;  
+    border-radius: 15px;
+margin-left: 2%;
+}
+.video1{
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.11);
+    width: 100%;
+    border-radius: 15px;
+    
+    }
+.videoh{
+    color: white;
+ font-size: 20px;
+ margin-top:8% ;
+ margin-left: 20%;
+ margin-bottom: 1%;   
+}
+.videop{
+    font-size: 16px;
+    color: white;
+    width: 45%;
+margin-left: 20%;
+line-height: 24px;
+
+}
+/* <!--------------------------Stay connected----------------------------------- --> */
+.connected{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+}
+.mainbox{
+    height: 330px;
+    width: 80%;
+    /* border: 1px solid red; */
+margin: auto;
+}
+.imgconnect{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.videoconnect{
+    width: 50%;
+    height: 100%;
+float: right;
+transform: translateY(-70px);
+}
+.connecth{
+color: white;
+}
+.ch1{transform: translate(100px, 100px);}
+
+.ch2{  
+    transform: translate(0px, 100px);
+    float: left;
+}
+
+.connectp{
+color: white;
+
+ 
+line-height: 24px;
+}
+.cp1{
+    transform: translate(100px, 120px);
+    width: 87%;}
+.cp2{   
+    width: 38%;
+     float: left;
+    transform: translate(-133px , 140px);
+}
+/* <!-- ----------------------------plaid----------------------------------- --> */
+.plaid{
+  height: 40vh;
+  width: 100%;
+  background-color: white;  
+}
+.contentbox4{
+    height: 100%;
+    width: 40%;
+    /* border: 1px solid #000; */
+    float: left;
+}
+.box4p{
+  color: #171a20;  
+  font-size: 17px;
+}
+.box4h{
+
+font-size: 28px;
+font-weight: 500;
+margin-top: 10px;
+}
+
+.contentbox5{
+    height: 100%;
+    width: 59%;
+    /* border: 1px solid #000; */
+    float: right;
+}
+.contentbox6{
+    margin: 10% 25%;
+
+}
+.cb5p{
+    line-height: 22px;
+width: 75%;
+margin: 10%;
+    font-size: 16px;
+    color: #393c41bd;
+}
+.cb5p span{
+    text-decoration: underline;
+}
+
+.buttonbox2{
+    font-size: 17px;
+
+    border-radius: 5px;
+font-weight: 500; 
+margin-top: 4% ;
+background-color: transparent;
+transition: .2s;
+}
+.btn2{
+    border: 3px solid black;
+    height: 40px;
+    color: #171a20;
+    width: 220px; 
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+
+.btn3{
+    color: white;
+    height: 40px;
+    border: 2px solid white;
+    width: 240px; 
+    
+}
+.btn3:hover{
+    background-color: white;
+    color: black;
+}
+/* <!-- ----------------------------Go Anywhere----------------------------------- --> */
+.Go{
+    height: 100vh;
+    width: 100%;
+
+
+}
+.contentbox12{
+    margin-top: 10%;
+    height: 400px;
+    width: 23%;
+float: right;
+}
+.box4h-2{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.videoGo{
+    float: left;
+    width: 100%;
+}
+.contentbox13{
+    width: 70%;
+    position: relative;
+}
+.contentbox14{
+ height: 100px;
+ width: 100%;
+ position: absolute;
+transform: translateY(450%);
+
+}
+
+
+/* <!-- ----------------------------blue car sec----------------------------- --> */
+.bluecar{
+    height: 60vh;
+    width: 100%;
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/08585f00-c0b7-4bda-80e4-2b78406b5582/bvlatuR/std/4096x2560/Model-S-Performance-Hero-Desktop-LHD);
+background-position: center;
+background-size: cover;
+padding: 1px;
+box-sizing: border-box;
+}
+.contentbox3{
+    height: 100px;
+margin-top: 12%;
+    width: 100%;
+}
+.bx1{
+    margin-left: 27%;
+}
+
+
+/* --------------------safety----------------- */
+
+.safety{
+    height: 100vh;
+    width: 100%;
+}
+.contentbox11{
+    margin-top: 10%;
+    height: 400px;
+    width: 23%;
+    margin-left: 7%;
+float: left;
+}
+.box4h-2{
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.imgsaftey{
+    margin-top: 5%;
+    float: right;
+width: 70%;
+}
+
+
+
+/* <!------------------------------terms & Condiotns -------------------------> */
+.condtions{
+    height: 20vh;
+    width: 100%;
+background-color: white;
+
+}
+.termp{
+    font-size: 14px;
+    color: #171a20b9;
+text-align: center;
+width: 50%;
+line-height: 20px;
+
+margin: 5% auto;
+}
+.termp span{
+    text-decoration: underline;
+    color: #171a20;
+}
+/* <!-- ----------------------------Features----------------------------------- --> */
+.features{
+    height: 200vh;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+}
+.featureh{
+    font-size: 28px;
+    color: #171a20;
+font-weight: 600;
+margin-top: 10%;
+margin-left: 10%;
+margin-bottom: 1%;
+
+
+}
+.featurep{
+    font-size: 18px;
+    color: #171a20a9;
+margin-left: 10%;
+font-weight: 400;
+line-height: 26px;
+width: 65%;
+
+}
+.featurev{
+    height: 60%;
+    width: 90%;
+    margin-left: 6%;
+}
+.freeimg{
+    border-radius: 10px;
+    height: 50%;
+    width: 80%;
+    margin: 5% 13%;
+}
+.contentbox10{
+height: 200px;
+    margin-left: 12%;
+    width: 80%;
+}
+.boxs6{
+    float: left;
+    height: 100%;
+    width: 23%;
+border-top: 1px solid #171a20;
+margin-left: 2%;
+}
+.box6h{
+    font-size: 19px;
+    color: #171a20;
+    font-weight: 500;
+margin-top: 5%;
+line-height: 26px;
+
+}
+.box6p{
+    /* font-size: 19px; */
+    color: #171a20;
+    font-weight: 500;
+margin-top: 3%;
+width: 88%;
+line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-------------------------------specs-------------------------------- --> */
+
+.specs{
+    height: 110vh;
+    width: 100%;
+background-color: black;
+}
+.imgspecs{
+    height: 100%;
+    width: 50%;
+    float: left;
+
+}
+.contentbox7{
+    height: 100%;
+    width: 25%;
+    float: left;
+    /* border: 1px solid white; */
+}
+.cb7h{
+color: white;
+margin-bottom:20px ;
+}
+.cb7h span{
+    font-weight: 400;
+    
+}
+.boxs5{
+    height:80px ;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    padding: 1px;
+    box-sizing: border-box;
+}
+.line{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 12%;
+    border: 1px solid  rgba(255, 255, 255, 0.315);
+}
+.box5p{
+    color: white;
+    font-weight: 700;
+line-height: 26px;
+}
+.box5p span{
+    font-weight: 500;
+}
+/* <!---------------------------- model S white---------------------------------> */
+.whiteS{
+    height: 60vh;
+    width: 100%;
+}
+.contentbox8{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+.cb8h{
+    font-weight: 500;
+    margin-left: 20%;
+    margin-top:  15%;
+}
+.contentbox9{
+height: 50px;
+margin-top: 20px;
+width: 70%;
+margin-left: 15%;
+}
+.buttonbox3{
+margin-left: 5%;
+border-radius: 5px;
+background-color: white;
+    height: 40px;
+    width: 200px;
+    border: 3px solid #000;
+font-size: 16px;
+font-weight: 500;
+color: #171a20;
+transition: .2s;
+}
+.buttonbox3:hover{
+    background-color: black;
+    color: white;
+}
+
+.imgwhite{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- --------------------------Footer--------------------------------- --> */
+
+.footer{
+    height:60px;
+    width: 100%;
+    /* background-color: #3b3e42; */
+box-sizing: border-box;
+padding: 1.5% 23%;
+}
+.ulfooter{
+color:  #171a20;
+
+}
+.lifooter{
+font-size: 14px;
+    padding: 10px;
+list-style: none;
+display: inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

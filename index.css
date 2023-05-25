@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+/* ---------------------Start------------------- */
+.banner{
+    height: 100vh;
+    width: 100%;
+background-position: center;
+background-size: cover;
+padding: 1px;
+box-sizing: border-box;
+}
+.b{background-image: url(/Images/M3-Homepage-Desktop-LHD.jpeg);}
+.Y{background-image: url(/Images/Desktop-ModelY.jpeg);}
+.S{background-image: url(/Images/Homepage-Model-S-Desktop-LHD.jpeg);}
+.X{background-image:url(/Images/Homepage-Model-X-Desktop-LHD.jpeg)}
+.SP{background-image: url(/Images/_25-HP-SolarPanels-D.jpeg);}
+.SR{background-image: url(/Images/Homepage-SolarRoof-Desktop-Global.jpeg);}
+
+
+.navbar{
+  box-sizing: border-box;
+  padding: 1% 3%;
+  height: 100px;
+  width: 100%;
+}
+.ul{
+font-weight: 500;
+float: right;
+margin-top: 8px;
+position: relative;
+}
+.li{
+    color: #171a20;
+    font-size: 16px;
+    list-style: none;
+    display: inline;
+    padding: 0px 15px;
+}
+.li::before{
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 70px;
+    background-color: #3b3e422a;
+    margin-top: -4px;
+    border-radius: 5px;
+    opacity: 0;
+    margin-left: -5px;
+    transition: .5s;
+}
+.li:hover:before{
+    opacity: 1;
+}
+
+.solarli{
+    margin-left: 100px;
+}
+
+
+
+.contentbox1{
+    height: 500px;
+    width: 700px;
+margin: auto;
+
+}
+.cb2{margin-top: 10%;}
+.cb3{margin-top: 6%;}
+.cb4{margin-top: 8%;}
+
+
+
+
+.heroh{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.herop{
+    font-size: 16px;
+    font-weight: 400;
+    color: #171a20;
+    text-align: center;
+
+}
+.herop span{
+text-decoration: underline red;
+}
+.herobtn{
+    font-size: 16px;
+    height: 40px;
+    width: 260px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-top: 43%;
+font-weight: 500;
+}
+    
+.btn1{
+    color: white;
+    background-color: #3b3e42;
+    margin-left: 10%;
+
+
+}
+.btn2{
+    color: #3b3e42;
+margin-left: 3%;
+    
+}
+.heroicon{
+    display: block;
+text-align: center;
+    font-size: 30px;
+color: #3b3e42;
+margin-top: 8%;
+animation: icon 1s ease-out infinite;
+}
+@keyframes icon {
+    0%{transform: translateY(0px);}
+    33%{transform: translateY(10px);}
+    66%{transform: translateY(0px);}
+    86%{transform: translateY(2px);}
+    100%{transform: translateY(0px);}
+}
+/* <!-- --------------------------Footer--------------------------------- --> */
+
+.footer{
+    height:50px;
+    width: 100%;
+    background-color: #3b3e42;
+box-sizing: border-box;
+padding: 1.5% 23%;
+}
+.ulfooter{
+color: white;
+
+}
+.lifooter{
+font-size: 14px;
+    padding: 10px;
+list-style: none;
+display: inline;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
